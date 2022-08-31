@@ -1,0 +1,73 @@
+ 
+<body>
+  <div id="main">
+   <div> 
+    <h1 id="title">Bob Ross</h1>
+      <p><cite>The voice of a brush-stroke</cite></p>
+   </div>  
+   <div id="img-div">
+    <div> 
+   <img id="image" src="https://lh3.googleusercontent.com/AJ9L4yu6cu_xh2hTfhyLUNi1gJjU5QMvnqsRbOOWqaNyU62Y5nMcr8CP1f8Zp_K5k4qJ1-oHi9HL8yV92aPcIyjjTcN8sRxA5zth2jET3WYPdLLiY-QQSbqSqlJVe7n16eYfxwgdzePPdWtGrHpnVgcrH74CQk6PN6buYUY2calkFVXYBdwEDIrcUPkkdWEkt8_PEoOcPKTGkYxf2u7byhPcdVFsTFaEgE3YpuCgbFJr50ZK_a6aR_PXTz1Wnd7wBgnRiwsHOEAeEzuqERxOhc26SNOMLImjYcIUPM79AX4LDRaE-PmQrNEBhGf_7GlZiWqwipOZalJBDAE3wxmT9HRzeJmY_KZZrZfpAI2BienGTUd6P-sfmJMp-i385nb-X0YequdOTR9ZMfnwnlUUQbwpQiwRyaRyfqkA6Vn2ZfI-KB9BZm-FAqSsIwnRcMkUeFQe2BkHaVjemBsRpQTDQzNMQmgoSd1tBvupJNNnF8PYKmzTRUF1Rntn5zOOoX05lVm-tcT-jYTJtaXMlSlSsv2FUBgo26HVnn6sLJhKSt1oKW7qIlI7c9jTnT880wb-WBrNwdhnI_mYSFg7Qwh22_lUNJTRdWhIpYTnYf4VS-IW3-Bd9RgUFXBAcfU5Qn_deYbn7rKyMeA-EhqvN1IKUWw80PmL18_pGPZV1Cm4U1Bql8WRQdEUFWufJ5F8cDV4M2Ycifwi5lnBVH7oTxYiGvZYHhWf7hca766GcErLkBhHhdXOwdsWQbsECTpp2g=w294-h220-no?authuser=0"  alt="A picture of Bob Ross">
+      <p id="img-caption">
+        Bob Ross, holding a palette in left hand and a two inch brush in his right hand standing in his studio.</p>
+   </div> 
+     <div id="tribute-info">
+   <ul>
+    <li>Robert Norman Ross born <strong>October 29, 1942</strong></li>
+   <li>In <strong>1961, 18-year-old Ross</strong> enlisted in the United States Air Force, of service for 20 years.
+   During his 20-year Air Force career, Ross developed an interest in painting after attending an art class at the Anchorage U.S.O. club.</li>
+   <li>Eventually, Ross's income from sales surpassed his military salary. He retired from the Air Force in 1981 as a master sergeant</li>
+   <li>Ross was noted for his permed hair, which he ultimately disliked but kept after he had integrated it into the company logo.</li>
+   <li>The show "The joy of painting" ran from <strong>January 11, 1983, to May 17, 1994</strong></li>
+   <li>Ross used a wet-on-wet oil painting technique of painting over a thin base layer of wet paint.</li>
+   <li>Ross painted an estimated <strong>30,000</strong> paintings during his lifetime.</li>
+   <li>Bob Ross Died on <strong>July 4, 1995 (aged 52)</strong></li>
+ </ul>
+       <h2 class="tribute-link">
+         For more information about Bob Ross
+         <a id="tribute-link" href="https://screenrant.com/bob-ross-facts-trivia/" target="_blank">15 Fun Facts</a>
+       </h2>
+       </div>
+
+ </body>
+h1 {
+  font-family: Arial, Verdana;
+  background-color: lightblue;
+  font-size: 180px;
+  text-align: center;
+  border-style: outset;
+  border-color: darkblue;
+  border-width:45px;
+  background: linear-gradient(90deg, blue, purple, rgb(204, 204, 255));
+  
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}
+
+
+#img-div {
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 200%;
+}
+#img-caption {
+  font-size: 100%;
+  
+}
+
+li {
+  marigin: 20px;
+  padding: 10px;
+  background-color: grey;
+  border-width: 3px;
+  border-style: solid;
+}
